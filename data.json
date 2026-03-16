@@ -10,5 +10,11 @@
         "amount": 150.0,
         "category": "alisveris",
         "type": "income"
+    },
+    {
+        "title": "Market Test",
+        "amount": 52.5,
+        "category": "Category Test",
+        "type": "expense"
     }
 ]
