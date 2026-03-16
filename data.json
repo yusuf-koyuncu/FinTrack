@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Maas",
+        "amount": 50000.0,
+        "category": "sd",
+        "type": "income"
+    },
+    {
+        "title": "yemek",
+        "amount": 150.0,
+        "category": "alisveris",
+        "type": "income"
+    }
+]
