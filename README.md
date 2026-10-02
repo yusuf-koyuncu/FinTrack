@@ -1,42 +1,25 @@
+
+## FinTrack README
+
+```markdown
 # 💰 FinTrack
 
-FinTrack, kişisel gelir ve giderlerinizi terminal üzerinden kolayca takip etmenizi sağlayan, hafif ve kullanıcı dostu bir Python komut satırı (CLI) uygulamasıdır.
+A lightweight command-line app for tracking your personal income and expenses, written in Python with no external dependencies.
 
-## 🚀 Özellikler
+![Python](https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JSON](https://img.shields.io/badge/Storage-JSON-000000?style=for-the-badge&logo=json&logoColor=white)
 
-- **Gelir Ekleme:** Kazançlarınızı açıklama, miktar ve kategori ile detaylıca kaydedin.
-- **Gider Ekleme:** Harcamalarınızı kolayca sisteme girin ve paranızın nereye gittiğini bilin.
-- **İşlem Geçmişi:** Tüm gelir ve giderlerinizi okunması kolay, düzenli bir tablo formatında görüntüleyin.
-- **Finansal Özet:** Toplam gelir, toplam gider ve net bakiyenizi anında analiz edin.
-- **Veri Kalıcılığı:** Tüm kayıtlarınız `data.json` dosyasında güvenle saklanır; uygulamayı kapatsanız bile verileriniz her zaman güvendedir.
+## ✨ Features
 
-## 📋 Gereksinimler
+- ➕ **Add income** with a description, amount and category
+- ➖ **Add expenses** and see where your money goes
+- 📋 **Transaction history** in a clean table
+- 📊 **Financial summary:** total income, total expenses and net balance
+- 💾 **Persistent data** saved in `data.json`
 
-- **Python 3.x**
-- Herhangi bir ek kütüphane kurulumu gerektirmez (Sadece Python'un standart kütüphanelerini kullanır).
+## 🚀 Getting started
 
-## 🛠️ Kurulum & Kullanım
+Requires Python 3 only (standard library).
 
-1. Proje dizinine terminalinizden (veya Komut İstemcisi/PowerShell) gidin.
-   ```bash
-   cd "C:\Users\Kullanici\Masaüstü\FinTrack"
-   ```
-2. Uygulamayı çalıştırın:
-   ```bash
-   python FinTrack.py
-   ```
-
-## 🎮 Menü Seçenekleri
-
-Uygulamayı çalıştırdığınızda aşağıdaki kullanıcı dostu menü ile karşılacaksınız:
-
-- `1. Add Income`  : Yeni bir gelir kaydı oluşturur.
-- `2. Add Expense` : Yeni bir gider kaydı oluşturur.
-- `3. List All`    : Tüm finansal hareketleri tablo şeklinde listeler.
-- `4. Summary`     : Toplam gelir, gider ve net bakiye analizini gösterir.
-- `5. Exit`        : Uygulamadan güvenli bir şekilde çıkar.
-
-## 📂 Dosya Yapısı
-
-- `FinTrack.py` : Uygulamanın çekirdek kodunu barındıran çalıştırılabilir dosya.
-- `data.json`   : Uygulamanın verileri kaydettiği yerel veritabanı dosyası (İşlem yaptıkça otomatik oluşturulur veya güncellenir).
+```bash
+python FinTrack.py
